@@ -1,0 +1,23 @@
+{
+    "name": "marios88/php-gsis",
+    "description": "Helper Classes for consuming Greek GSIS services",
+    "type": "library",
+    "require": {
+	    "php": ">=7.2.0",
+        "ext-soap": "*"
+    },
+    "license": "MIT",
+    "version": "0.1.0",
+    "keywords": ["gsis","greek","39a","vat","taxid"],
+    "authors": [
+        {
+            "name": "marios88",
+            "email": "marios88@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gsis\\": "src/"
+        }
+    }
+}
