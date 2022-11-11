@@ -3,11 +3,11 @@
     "description": "Helper Classes for consuming Greek GSIS services",
     "type": "library",
     "require": {
-	    "php": ">=7.2.0",
+	    "php": ">=7.4.0",
         "ext-soap": "*"
     },
     "license": "MIT",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "keywords": ["gsis","greek","39a","vat","taxid"],
     "authors": [
         {

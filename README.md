@@ -8,7 +8,7 @@ A collection of classes for painless consuming of various GSIS SOAP services.
 
 Installation
 ------------
-- Minumum PHP 7.2
+- Minumum PHP 7.4
 - Requires the [SOAP extension](https://www.php.net/manual/en/book.soap.php) to be already installed
 - Ιnstall [Composer](http://getcomposer.org/).
 - Then install using the following command:
@@ -41,6 +41,9 @@ var_dump($gsis->fetchBasic('otherafm2'));
 
 Release History
 ---
+* 0.2.0  
+  * PHP 7.4
+  * Allow setting proxy
 * 0.1.0  
   * Initial Release
 
